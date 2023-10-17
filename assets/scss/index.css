@@ -7,7 +7,7 @@ body {
 }
 
 .top__img {
-  background-image: url(".../assets/img/hero_1.jpg");
+  background-image: url("assets/img/hero_1.jpg");
   width: 100%;
   height: 800px;
   background-position: center;
@@ -83,7 +83,6 @@ body {
 .bottom__footer ul {
   list-style: none;
 }
-
 .bottom__footer ul li {
   padding-bottom: 10px;
 }/*# sourceMappingURL=index.css.map */
