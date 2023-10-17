@@ -1,0 +1,49 @@
+@import 'reset';
+@import 'variables';
+
+
+.main__div{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    justify-content: space-between;
+    margin: 0 auto;
+  
+   
+}
+
+.sub__div{
+    border: 1px solid $border__color ;
+    border-radius: 10%;
+    width: calc(33.33% - 10px);
+    height: 200px;
+    padding: 20px;
+    box-shadow: $box__shadow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+      
+
+
+&:hover{
+    background-color: cadetblue;
+    transition: 1s;
+    cursor: pointer;
+    color: white;
+
+}
+
+h1 , p{
+    font-size: 20px;
+}
+
+li{
+        
+    list-style: none;
+}
+
+
+}
+
+
+    
